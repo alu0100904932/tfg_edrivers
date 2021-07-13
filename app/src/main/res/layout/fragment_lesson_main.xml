@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.view.lesson.LessonMainFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/speedFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_speed"
+                    android:contentDescription="@string/image1String" />
+
+                <ImageButton
+                    android:id="@+id/stopFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/button_stop"
+                    android:contentDescription="@string/image2String" />
+
+                <ImageButton
+                    android:id="@+id/lightsFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_lights"
+                    android:contentDescription="@string/image3String" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/carFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/ic_car"
+                    android:contentDescription="@string/image4String" />
+
+                <ImageButton
+                    android:id="@+id/trafficLightFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/button_traffic_light"
+                    android:contentDescription="@string/image5String" />
+
+                <ImageButton
+                    android:id="@+id/parkingFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_parking"
+                    android:contentDescription="@string/image6String" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/passedFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/button_passed"
+                    android:contentDescription="@string/image7String" />
+
+                <ImageButton
+                    android:id="@+id/yieldFault"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/button_yield"
+                    android:contentDescription="@string/image8String" />
+
+                <ImageButton
+                    android:id="@+id/moreFaults"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/ic_plus"
+                    android:contentDescription="@string/image9String" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/lessonTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="128dp"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="99:99:99" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/lessonTime"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/lessonPlayButton"
+                style="@android:style/Widget.Material.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/secondary"
+                android:contentDescription="@string/playButtonString"
+                android:src="@android:drawable/ic_media_play" />
+
+            <ImageButton
+                android:id="@+id/lessonPauseButton"
+                style="@android:style/Widget.Material.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/secondary"
+                android:contentDescription="@string/pauseButtonString"
+                android:src="@android:drawable/ic_media_pause" />
+
+            <ImageButton
+                android:id="@+id/lessonStopButton"
+                style="@android:style/Widget.Material.ImageButton"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/red"
+                android:contentDescription="@string/stopButtonString"
+                android:src="@android:drawable/checkbox_off_background" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

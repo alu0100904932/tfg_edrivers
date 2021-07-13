@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">eDrivers</string>
+    <string name="logoString">logo</string>
+    <string name="signUpString">Crear cuenta</string>
+    <string name="logInString">Iniciar sesión</string>
+    <string name="emailString">Email</string>
+    <string name="passwordString">Contraseña</string>
+    <string name="userString">Usuario</string>
+    <string name="rolString">Rol</string>
+    <string name="autoescuelaString">Autoescuela</string>
+    <string name="drivingSchoolNameString">Nombre Autoescuela</string>
+    <string name="phoneString">Teléfono</string>
+    <string name="addressString">Dirección</string>
+    <string name="createDrivingSchoolString">Crear Autoescuela</string>
+    <string name="homeButtonString">Inicio</string>
+    <string name="lessonsButtonString">Prácticas</string>
+    <string name="achievementsButtonString">Logros</string>
+    <string name="profileButtonString">Cuenta</string>
+    <string-array name="rolOptions">
+        <item>Estudiante</item>
+        <item>Docente</item>
+    </string-array>
+    <string name="rankString">Clasificación</string>
+    <string name="pointsString">Puntos: 25918</string>
+    <string name="newLessonString">Nueva Práctica</string>
+    <string name="lastLessonString">Última Práctica</string>
+    <string name="profileInfoString">Información de la cuenta</string>
+    <string name="drivingSchoolInfoString">Información de la autoescuela</string>
+    <string name="rankSwitchString">Aparecer en clasificación</string>
+    <string name="notificationSwitchString">Notificaciones</string>
+    <string name="chagePasswordString">Cambiar Contraseña</string>
+    <string name="signOutString">Cerrar sesión</string>
+    <string name="deleteAccountString">Eliminar Cuenta</string>
+    <string name="mapButtonString">Abrir recorrido en mapa</string>
+    <string name="goHomeButtonString">Ir a Inicio</string>
+    <string name="saveDataString">Recordar datos</string>
+    <string name="usernameInfoString">Nombre de usuario:</string>
+    <string name="emailInfoString">Email:</string>
+    <string name="rolInfoString">Rol:</string>
+    <string name="drivingSchoolString">Autoescuela:</string>
+    <string name="phoneInfoString">Teléfono:</string>
+    <string name="addressInfoString">Dirección:</string>
+    <string name="image1String">image1</string>
+    <string name="image2String">image2</string>
+    <string name="image3String">image3</string>
+    <string name="image4String">image4</string>
+    <string name="image5String">image5</string>
+    <string name="image6String">image6</string>
+    <string name="image9String">image9</string>
+    <string name="image8String">image8</string>
+    <string name="image7String">image7</string>
+    <string name="playButtonString">playButton</string>
+    <string name="stopButtonString">stopButton</string>
+    <string name="pauseButtonString">pauseButton</string>
+    <string name="showMapString">Mostrar recorrido en mapa</string>
+    <string name="studentString">Estudiante (correo electrónico)</string>
+    <string name="drivingInstructorString">Docente (correo electrónico)</string>
+    <string name="startNewLessonString">Empezar nueva práctica</string>
+    <string name="lessonInfoTitleString">Información de la práctica</string>
+    <string name="rankTitleString">CLASIFICACIÓN</string>
+    <string name="lessonsTitleString">PRÁCTICAS</string>
+    <string name="achievementImageString">achievementImage</string>
+    <string name="LessonsAchievementsString">Logros de prácticas</string>
+</resources>
